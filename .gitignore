@@ -3,3 +3,4 @@ historico/
 remap_cache/
 goes_cache/
 *.nc
+hovmoller_goes19_c14_*.png
