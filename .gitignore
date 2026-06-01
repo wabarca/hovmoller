@@ -1,0 +1,5 @@
+__pycache__/
+historico/
+remap_cache/
+goes_cache/
+*.nc

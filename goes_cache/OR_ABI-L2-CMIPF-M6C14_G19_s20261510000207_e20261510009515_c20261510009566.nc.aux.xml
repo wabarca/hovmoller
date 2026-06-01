@@ -1,0 +1,61 @@
+<PAMDataset>
+  <Subdataset name="//CMI">
+    <PAMDataset>
+      <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["unknown",GEOGCS["unknown",DATUM["Unknown based on GRS 1980 ellipsoid",SPHEROID["GRS 1980",6378137,298.257222096042]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Geostationary_Satellite"],PARAMETER["central_meridian",-75],PARAMETER["satellite_height",35786023],PARAMETER["false_easting",0],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],EXTENSION["PROJ4","+proj=geos +sweep=x +lon_0=-75 +h=35786023 +x_0=0 +y_0=0 +ellps=GRS80 +units=m +no_defs"]]</SRS>
+      <GeoTransform> -5.4348946752698869e+06,  2.0040172106452385e+03,  0.0000000000000000e+00,  5.4348946752698869e+06,  0.0000000000000000e+00, -2.0040172106452385e+03</GeoTransform>
+      <Metadata>
+        <MDI key="cdm_data_type">Image</MDI>
+        <MDI key="Conventions">CF-1.7</MDI>
+        <MDI key="dataset_name">OR_ABI-L2-CMIPF-M6C14_G19_s20261510000207_e20261510009515_c20261510009566.nc</MDI>
+        <MDI key="date_created">2026-05-31T00:09:56.6Z</MDI>
+        <MDI key="id">ed6b7f25-7491-4291-acf9-2562bdf43634</MDI>
+        <MDI key="institution">DOC/NOAA/NESDIS &gt; U.S. Department of Commerce, National Oceanic and Atmospheric Administration, National Environmental Satellite, Data, and Information Services</MDI>
+        <MDI key="instrument_ID">FM4</MDI>
+        <MDI key="instrument_type">GOES-R Series Advanced Baseline Imager (ABI)</MDI>
+        <MDI key="iso_series_metadata_id">8c9e8150-3692-11e3-aa6e-0800200c9a66</MDI>
+        <MDI key="keywords">SPECTRAL/ENGINEERING &gt; INFRARED WAVELENGTHS &gt; BRIGHTNESS TEMPERATURE</MDI>
+        <MDI key="keywords_vocabulary">NASA Global Change Master Directory (GCMD) Earth Science Keywords, Version 7.0.0.0.0</MDI>
+        <MDI key="license">Unclassified data.  Access is restricted to approved users only.</MDI>
+        <MDI key="Metadata_Conventions">Unidata Dataset Discovery v1.0</MDI>
+        <MDI key="naming_authority">gov.nesdis.noaa</MDI>
+        <MDI key="orbital_slot">GOES-East</MDI>
+        <MDI key="platform_ID">G19</MDI>
+        <MDI key="processing_level">National Aeronautics and Space Administration (NASA) L2</MDI>
+        <MDI key="production_data_source">Realtime</MDI>
+        <MDI key="production_environment">OE</MDI>
+        <MDI key="production_site">RBU</MDI>
+        <MDI key="project">GOES</MDI>
+        <MDI key="scene_id">Full Disk</MDI>
+        <MDI key="spatial_resolution">2km at nadir</MDI>
+        <MDI key="standard_name_vocabulary">CF Standard Name Table (v35, 20 July 2016)</MDI>
+        <MDI key="summary">Single emissive band Cloud and Moisture Imagery Products are digital maps of clouds, moisture and atmospheric windows at IR bands.</MDI>
+        <MDI key="timeline_id">ABI Mode 6</MDI>
+        <MDI key="time_coverage_end">2026-05-31T00:09:51.5Z</MDI>
+        <MDI key="time_coverage_start">2026-05-31T00:00:20.7Z</MDI>
+        <MDI key="title">ABI L2 Cloud and Moisture Imagery</MDI>
+      </Metadata>
+      <Metadata domain="IMAGE_STRUCTURE">
+        <MDI key="COMPRESSION">DEFLATE</MDI>
+      </Metadata>
+      <PAMRasterBand band="1">
+        <Metadata>
+          <MDI key="add_offset">96.190002</MDI>
+          <MDI key="ancillary_variables">DQF</MDI>
+          <MDI key="cell_methods">t: point area: point</MDI>
+          <MDI key="coordinates">band_id band_wavelength t y x</MDI>
+          <MDI key="grid_mapping">goes_imager_projection</MDI>
+          <MDI key="long_name">ABI L2+ Cloud and Moisture Imagery brightness temperature</MDI>
+          <MDI key="resolution">y: 0.000056 rad x: 0.000056 rad</MDI>
+          <MDI key="scale_factor">0.059850749</MDI>
+          <MDI key="sensor_band_bit_depth">12</MDI>
+          <MDI key="standard_name">toa_brightness_temperature</MDI>
+          <MDI key="units">K</MDI>
+          <MDI key="valid_range">0 4095</MDI>
+          <MDI key="_FillValue">-1</MDI>
+          <MDI key="_Netcdf4Dimid">0</MDI>
+          <MDI key="_Unsigned">true</MDI>
+        </Metadata>
+      </PAMRasterBand>
+    </PAMDataset>
+  </Subdataset>
+</PAMDataset>
