@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export TZ=UTC
+# export TZ=UTC
 
 source /home/prometheus/miniconda3/etc/profile.d/conda.sh
 
