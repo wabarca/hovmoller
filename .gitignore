@@ -3,5 +3,6 @@ historico/
 remap_cache/
 goes_cache/
 *.nc
-hovmoller_goes19_*.png
+hovmoller_goes19_c14.png
 *.json
+hovmoller.log
