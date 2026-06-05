@@ -12,9 +12,7 @@ echo "========================================"
 echo "$(date -u) UTC"
 echo "========================================"
 
-python hovmoller_goes19_ch14_1.py
-
-python hovmoller_goes19_ch14_2.py
+python hovmoller_goes19_c14.py
 
 cp hovmoller_goes19_c14.png /home/prometheus/workspace/SHOWCast/HTML/Output/QuickLooks/
 
