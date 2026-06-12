@@ -411,7 +411,7 @@ def generate_hovmoller():
             0.5,
             fecha,
             color="orange",
-            fontsize=13,
+            fontsize=12,
             ha="center",
             va="center",
             fontweight="bold",
@@ -466,7 +466,8 @@ def generate_hovmoller():
         from matplotlib.ticker import FixedLocator
 
         gl = geoax.gridlines(
-            draw_labels=(i == n - 1),
+            #            draw_labels=(i == n - 1),
+            draw_labels=True,
             linewidth=0.5,
             color="white",
             alpha=0.6,
